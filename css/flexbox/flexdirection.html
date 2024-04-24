@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox dirextion</title>
+    <style>
+        #box1{
+            background-color: blue;
+        }
+        #box2{
+            background-color: rgb(183, 208, 17);
+        }
+        #box3{
+            background-color: rgb(175, 52, 7);
+        }
+        #bigbox{
+            height: 600px;
+            width: 800px;
+            background-color: darkgray;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+         
+           
+ }
+        .box{
+            height: 100px;width: 100px;
+            background-color: chartreuse;
+            margin: 5px;
+            border: solid ;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header><h1> flex Container</h1></header>
+<div id="bigbox">
+    
+    <div id="box1" class="box">first</div>
+    <div id="box2" class="box">second</div>
+    <div id="box3" class="box">third</div>
+    <div id="box4" class="box">four</div>
+</div>
+</body>
+</html>
